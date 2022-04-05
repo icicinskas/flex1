@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: verdana;
+}
+
+body {
+    background: #3cb371;
+}
+
+main {
+    display: flex;
+    margin: auto;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+main .sm-box {
+    flex: 1;
+    height: 300px;
+    background: white;
+}
+
+main .lg-box {
+    flex-wrap: wrap;
+    height: 600px;
+    background: white;
+}
+
+.left div {
+    margin: 10px 10px 0 10px;
+}
+
+.right div {
+    display: block;
+    margin: 0 10px 10px 0;
+}
+
+.right div:nth-of-type(1) {
+    margin: 0 10px 0 0;
+}
+
+img {
+    width: 100%;
+}
+
+.lg-box img {
+    height: 70%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.left .column {
+    padding: 15px;
+    margin: auto;
+}
+
+.right .column {
+    padding: 20px;
+    margin: auto;
+}
+
+.column p {
+    font-size: 0.9em;
+    text-align: justify;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7em;
+}
+
+.left .bottom {
+    padding: 0 15px 0 15px;
+    margin: auto;
+}
+
+.right .bottom {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px 0 20px;
+    margin: auto;
+}
+
+.left h2 {
+    text-align: left;
+    font-family: verdana;
+    font-size: 1.4em;
+    margin: auto;
+}
+
+.right h2 {
+    text-align: left;
+    font-family: verdana;
+    font-size: 1.4em;
+    margin: auto;
+}
+
+h2:nth-of-type(2) {
+    margin-top: 0;
+}
